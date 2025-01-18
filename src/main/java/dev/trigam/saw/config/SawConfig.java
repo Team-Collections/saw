@@ -1,8 +1,8 @@
-package dev.trigam.template.config;
+package dev.trigam.saw.config;
 
 import eu.midnightdust.lib.config.MidnightConfig;
 
-public class TemplateConfig extends MidnightConfig {
+public class SawConfig extends MidnightConfig {
 
     // Categories
     public static final String EXAMPLE = "Example";
