@@ -1,0 +1,37 @@
+{
+	"parent": "minecraft:recipes/root",
+
+	"criteria": {
+		"has_flowering_azalea": {
+			"trigger": "minecraft:inventory_changed",
+
+			"conditions": {
+				"items": [{
+					"items": "minecraft:flowering_azalea"
+				}]
+			}
+		},
+
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+
+			"conditions": {
+				"recipe": "saw:pink_dye_from_flowering_azalea"
+			}
+		}
+	},
+
+	"requirements": [
+		[
+			"has_flowering_azalea",
+
+			"has_the_recipe"
+		]
+	],
+
+	"rewards": {
+		"recipes": [
+			"saw:pink_dye_from_flowering_azalea"
+		]
+	}
+}

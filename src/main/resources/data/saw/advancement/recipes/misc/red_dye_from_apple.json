@@ -1,0 +1,37 @@
+{
+	"parent": "minecraft:recipes/root",
+
+	"criteria": {
+		"has_apple": {
+			"trigger": "minecraft:inventory_changed",
+
+			"conditions": {
+				"items": [{
+					"items": "minecraft:apple"
+				}]
+			}
+		},
+
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+
+			"conditions": {
+				"recipe": "saw:red_dye_from_apple"
+			}
+		}
+	},
+
+	"requirements": [
+		[
+			"has_apple",
+
+			"has_the_recipe"
+		]
+	],
+
+	"rewards": {
+		"recipes": [
+			"saw:red_dye_from_apple"
+		]
+	}
+}

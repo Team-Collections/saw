@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+
+	"category": "misc",
+	"group": "gray_dye",
+
+	"ingredients": [
+		"minecraft:white_dye",
+		"minecraft:black_dye"
+	],
+
+	"result": {
+		"id": "minecraft:gray_dye",
+		"count": 2
+	}
+}

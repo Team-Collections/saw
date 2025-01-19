@@ -1,0 +1,47 @@
+{
+	"parent": "minecraft:recipes/root",
+
+	"criteria": {
+		"has_magenta_dye": {
+			"trigger": "minecraft:inventory_changed",
+
+			"conditions": {
+				"items": [{
+					"items": "minecraft:magenta_dye"
+				}]
+			}
+		},
+		"has_black_dye": {
+			"trigger": "minecraft:inventory_changed",
+
+			"conditions": {
+				"items": [{
+					"items": "minecraft:black_dye"
+				}]
+			}
+		},
+
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+
+			"conditions": {
+				"recipe": "saw:purple_dye_from_shading"
+			}
+		}
+	},
+
+	"requirements": [
+		[
+			"has_magenta_dye",
+			"has_black_dye",
+
+			"has_the_recipe"
+		]
+	],
+
+	"rewards": {
+		"recipes": [
+			"saw:purple_dye_from_shading"
+		]
+	}
+}

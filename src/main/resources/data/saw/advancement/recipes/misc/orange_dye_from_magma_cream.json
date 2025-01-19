@@ -1,0 +1,37 @@
+{
+	"parent": "minecraft:recipes/root",
+
+	"criteria": {
+		"has_magma_cream": {
+			"trigger": "minecraft:inventory_changed",
+
+			"conditions": {
+				"items": [{
+					"items": "minecraft:magma_cream"
+				}]
+			}
+		},
+
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+
+			"conditions": {
+				"recipe": "saw:orange_dye_from_magma_cream"
+			}
+		}
+	},
+
+	"requirements": [
+		[
+			"has_magma_cream",
+
+			"has_the_recipe"
+		]
+	],
+
+	"rewards": {
+		"recipes": [
+			"saw:orange_dye_from_magma_cream"
+		]
+	}
+}

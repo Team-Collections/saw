@@ -1,0 +1,37 @@
+{
+	"parent": "minecraft:recipes/root",
+
+	"criteria": {
+		"has_pale_hanging_moss": {
+			"trigger": "minecraft:inventory_changed",
+
+			"conditions": {
+				"items": [{
+					"items": "minecraft:pale_hanging_moss"
+				}]
+			}
+		},
+
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+
+			"conditions": {
+				"recipe": "saw:gray_dye_from_pale_hanging_moss"
+			}
+		}
+	},
+
+	"requirements": [
+		[
+			"has_pale_hanging_moss",
+
+			"has_the_recipe"
+		]
+	],
+
+	"rewards": {
+		"recipes": [
+			"saw:gray_dye_from_pale_hanging_moss"
+		]
+	}
+}

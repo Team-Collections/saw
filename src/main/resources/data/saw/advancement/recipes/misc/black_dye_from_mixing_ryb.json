@@ -1,0 +1,57 @@
+{
+	"parent": "minecraft:recipes/root",
+
+	"criteria": {
+		"has_red_dye": {
+			"trigger": "minecraft:inventory_changed",
+
+			"conditions": {
+				"items": [{
+					"items": "minecraft:red_dye"
+				}]
+			}
+		},
+		"has_yellow_dye": {
+			"trigger": "minecraft:inventory_changed",
+
+			"conditions": {
+				"items": [{
+					"items": "minecraft:yellow_dye"
+				}]
+			}
+		},
+		"has_blue_dye": {
+			"trigger": "minecraft:inventory_changed",
+
+			"conditions": {
+				"items": [{
+					"items": "minecraft:blue_dye"
+				}]
+			}
+		},
+
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+
+			"conditions": {
+				"recipe": "saw:black_dye_from_mixing_ryb"
+			}
+		}
+	},
+
+	"requirements": [
+		[
+			"has_red_dye",
+			"has_yellow_dye",
+			"has_blue_dye",
+
+			"has_the_recipe"
+		]
+	],
+
+	"rewards": {
+		"recipes": [
+			"saw:black_dye_from_mixing_ryb"
+		]
+	}
+}

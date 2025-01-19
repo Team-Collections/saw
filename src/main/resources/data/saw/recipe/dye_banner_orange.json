@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_transmute",
+
+	"category": "misc",
+	"group": "banner",
+
+	"input": "#minecraft:banners",
+	"material": "minecraft:orange_dye",
+	
+	"result": "minecraft:orange_banner"
+}

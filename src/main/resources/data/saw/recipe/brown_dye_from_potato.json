@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+
+	"category": "misc",
+	"group": "brown_dye",
+
+	"ingredients": [
+		"minecraft:potato"
+	],
+
+	"result": {
+		"id": "minecraft:brown_dye"
+	}
+}

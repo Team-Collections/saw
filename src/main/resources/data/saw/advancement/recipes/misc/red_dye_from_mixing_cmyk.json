@@ -1,0 +1,47 @@
+{
+	"parent": "minecraft:recipes/root",
+
+	"criteria": {
+		"has_yellow_dye": {
+			"trigger": "minecraft:inventory_changed",
+
+			"conditions": {
+				"items": [{
+					"items": "minecraft:yellow_dye"
+				}]
+			}
+		},
+		"has_magenta_dye": {
+			"trigger": "minecraft:inventory_changed",
+
+			"conditions": {
+				"items": [{
+					"items": "minecraft:magenta_dye"
+				}]
+			}
+		},
+
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+
+			"conditions": {
+				"recipe": "saw:red_dye_from_mixing_cmyk"
+			}
+		}
+	},
+
+	"requirements": [
+		[
+			"has_yellow_dye",
+			"has_magenta_dye",
+
+			"has_the_recipe"
+		]
+	],
+
+	"rewards": {
+		"recipes": [
+			"saw:red_dye_from_mixing_cmyk"
+		]
+	}
+}

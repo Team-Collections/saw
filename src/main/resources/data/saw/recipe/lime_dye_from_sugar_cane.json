@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:smelting",
+
+	"category": "misc",
+	"group": "lime_dye",
+
+	"ingredient": "minecraft:sugar_cane",
+
+	"cookingtime": 200,
+	"experience": 0.1,
+
+	"result": {
+		"id": "minecraft:lime_dye",
+		"count": 2
+	}
+}

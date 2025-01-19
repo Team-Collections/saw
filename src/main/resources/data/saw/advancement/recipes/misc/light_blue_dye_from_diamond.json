@@ -1,0 +1,37 @@
+{
+	"parent": "minecraft:recipes/root",
+
+	"criteria": {
+		"has_diamond": {
+			"trigger": "minecraft:inventory_changed",
+
+			"conditions": {
+				"items": [{
+					"items": "minecraft:diamond"
+				}]
+			}
+		},
+
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+
+			"conditions": {
+				"recipe": "saw:light_blue_dye_from_diamond"
+			}
+		}
+	},
+
+	"requirements": [
+		[
+			"has_diamond",
+
+			"has_the_recipe"
+		]
+	],
+
+	"rewards": {
+		"recipes": [
+			"saw:light_blue_dye_from_diamond"
+		]
+	}
+}

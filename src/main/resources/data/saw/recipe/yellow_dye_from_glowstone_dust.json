@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+
+	"category": "misc",
+	"group": "yellow_dye",
+
+	"ingredients": [
+		"minecraft:glowstone_dust"
+	],
+
+	"result": {
+		"id": "minecraft:yellow_dye"
+	}
+}

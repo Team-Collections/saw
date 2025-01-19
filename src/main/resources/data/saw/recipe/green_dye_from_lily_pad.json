@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:smelting",
+
+	"category": "misc",
+	"group": "green_dye",
+
+	"ingredient": "minecraft:lily_pad",
+
+	"cookingtime": 200,
+	"experience": 0.1,
+
+	"result": {
+		"id": "minecraft:green_dye"
+	}
+}

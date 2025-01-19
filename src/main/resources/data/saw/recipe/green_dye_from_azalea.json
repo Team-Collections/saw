@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+
+	"category": "misc",
+	"group": "green_dye",
+
+	"ingredients": [
+		"minecraft:azalea"
+	],
+
+	"result": {
+		"id": "minecraft:green_dye",
+		"count": 2
+	}
+}

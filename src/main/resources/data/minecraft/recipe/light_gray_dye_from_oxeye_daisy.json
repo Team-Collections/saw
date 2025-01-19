@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+
+	"category": "misc",
+	"group": "white_dye",
+
+	"ingredients": [
+		"minecraft:oxeye_daisy"
+	],
+
+	"result": {
+		"id": "minecraft:white_dye"
+	}
+}

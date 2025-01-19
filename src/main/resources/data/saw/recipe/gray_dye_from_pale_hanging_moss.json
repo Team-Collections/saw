@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:smelting",
+
+	"category": "misc",
+	"group": "gray_dye",
+
+	"ingredient": "minecraft:pale_hanging_moss",
+
+	"cookingtime": 200,
+	"experience": 0.1,
+
+	"result": {
+		"id": "minecraft:gray_dye"
+	}
+}

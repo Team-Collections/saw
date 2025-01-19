@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+
+	"category": "misc",
+	"group": "writeable_book",
+
+	"ingredients": [
+		"minecraft:book",
+		"minecraft:black_dye",
+		"minecraft:feather"
+	],
+
+	"result": {
+		"id": "minecraft:writable_book"
+	}
+}

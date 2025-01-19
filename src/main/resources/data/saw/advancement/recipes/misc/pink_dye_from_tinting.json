@@ -1,0 +1,47 @@
+{
+	"parent": "minecraft:recipes/root",
+
+	"criteria": {
+		"has_magenta_dye": {
+			"trigger": "minecraft:inventory_changed",
+
+			"conditions": {
+				"items": [{
+					"items": "minecraft:magenta_dye"
+				}]
+			}
+		},
+		"has_white_dye": {
+			"trigger": "minecraft:inventory_changed",
+
+			"conditions": {
+				"items": [{
+					"items": "minecraft:white_dye"
+				}]
+			}
+		},
+
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+
+			"conditions": {
+				"recipe": "saw:pink_dye_from_tinting"
+			}
+		}
+	},
+
+	"requirements": [
+		[
+			"has_magenta_dye",
+			"has_white_dye",
+
+			"has_the_recipe"
+		]
+	],
+
+	"rewards": {
+		"recipes": [
+			"saw:pink_dye_from_tinting"
+		]
+	}
+}
