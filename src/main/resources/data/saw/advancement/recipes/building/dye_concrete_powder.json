@@ -1,0 +1,172 @@
+{
+	"parent": "minecraft:recipes/root",
+
+	"criteria": {
+		"has_concrete_powder": {
+			"trigger": "minecraft:inventory_changed",
+
+			"conditions": {
+				"items": [{
+					"tag": "c:concrete_powders"
+				}]
+			}
+		},
+
+		"has_dye_concrete_powder_white": {
+			"trigger": "minecraft:recipe_unlocked",
+
+			"conditions": {
+				"recipe": "saw:dye_concrete_powder_white"
+			}
+		},
+		"has_dye_concrete_powder_light_gray": {
+			"trigger": "minecraft:recipe_unlocked",
+
+			"conditions": {
+				"recipe": "saw:dye_concrete_powder_light_gray"
+			}
+		},
+		"has_dye_concrete_powder_gray": {
+			"trigger": "minecraft:recipe_unlocked",
+
+			"conditions": {
+				"recipe": "saw:dye_concrete_powder_gray"
+			}
+		},
+		"has_dye_concrete_powder_black": {
+			"trigger": "minecraft:recipe_unlocked",
+
+			"conditions": {
+				"recipe": "saw:dye_concrete_powder_black"
+			}
+		},
+		"has_dye_concrete_powder_brown": {
+			"trigger": "minecraft:recipe_unlocked",
+
+			"conditions": {
+				"recipe": "saw:dye_concrete_powder_brown"
+			}
+		},
+		"has_dye_concrete_powder_red": {
+			"trigger": "minecraft:recipe_unlocked",
+
+			"conditions": {
+				"recipe": "saw:dye_concrete_powder_red"
+			}
+		},
+		"has_dye_concrete_powder_orange": {
+			"trigger": "minecraft:recipe_unlocked",
+
+			"conditions": {
+				"recipe": "saw:dye_concrete_powder_orange"
+			}
+		},
+		"has_dye_concrete_powder_yellow": {
+			"trigger": "minecraft:recipe_unlocked",
+
+			"conditions": {
+				"recipe": "saw:dye_concrete_powder_yellow"
+			}
+		},
+		"has_dye_concrete_powder_lime": {
+			"trigger": "minecraft:recipe_unlocked",
+
+			"conditions": {
+				"recipe": "saw:dye_concrete_powder_lime"
+			}
+		},
+		"has_dye_concrete_powder_green": {
+			"trigger": "minecraft:recipe_unlocked",
+
+			"conditions": {
+				"recipe": "saw:dye_concrete_powder_green"
+			}
+		},
+		"has_dye_concrete_powder_cyan": {
+			"trigger": "minecraft:recipe_unlocked",
+
+			"conditions": {
+				"recipe": "saw:dye_concrete_powder_cyan"
+			}
+		},
+		"has_dye_concrete_powder_light_blue": {
+			"trigger": "minecraft:recipe_unlocked",
+
+			"conditions": {
+				"recipe": "saw:dye_concrete_powder_light_blue"
+			}
+		},
+		"has_dye_concrete_powder_blue": {
+			"trigger": "minecraft:recipe_unlocked",
+
+			"conditions": {
+				"recipe": "saw:dye_concrete_powder_blue"
+			}
+		},
+		"has_dye_concrete_powder_purple": {
+			"trigger": "minecraft:recipe_unlocked",
+
+			"conditions": {
+				"recipe": "saw:dye_concrete_powder_purple"
+			}
+		},
+		"has_dye_concrete_powder_magenta": {
+			"trigger": "minecraft:recipe_unlocked",
+
+			"conditions": {
+				"recipe": "saw:dye_concrete_powder_magenta"
+			}
+		},
+		"has_dye_concrete_powder_pink": {
+			"trigger": "minecraft:recipe_unlocked",
+
+			"conditions": {
+				"recipe": "saw:dye_concrete_powder_pink"
+			}
+		}
+	},
+
+	"requirements": [
+		[
+			"has_concrete_powder",
+
+			"has_dye_concrete_powder_white",
+			"has_dye_concrete_powder_light_gray",
+			"has_dye_concrete_powder_gray",
+			"has_dye_concrete_powder_black",
+			"has_dye_concrete_powder_brown",
+			"has_dye_concrete_powder_red",
+			"has_dye_concrete_powder_orange",
+			"has_dye_concrete_powder_yellow",
+			"has_dye_concrete_powder_lime",
+			"has_dye_concrete_powder_green",
+			"has_dye_concrete_powder_cyan",
+			"has_dye_concrete_powder_light_blue",
+			"has_dye_concrete_powder_blue",
+			"has_dye_concrete_powder_purple",
+			"has_dye_concrete_powder_magenta",
+			"has_dye_concrete_powder_pink"
+		]
+	],
+
+	"rewards": {
+		"recipes": [
+			"saw:dye_concrete_powder_white",
+			"saw:dye_concrete_powder_light_gray",
+			"saw:dye_concrete_powder_gray",
+			"saw:dye_concrete_powder_black",
+			"saw:dye_concrete_powder_brown",
+			"saw:dye_concrete_powder_red",
+			"saw:dye_concrete_powder_orange",
+			"saw:dye_concrete_powder_yellow",
+			"saw:dye_concrete_powder_lime",
+			"saw:dye_concrete_powder_green",
+			"saw:dye_concrete_powder_cyan",
+			"saw:dye_concrete_powder_light_blue",
+			"saw:dye_concrete_powder_blue",
+			"saw:dye_concrete_powder_purple",
+			"saw:dye_concrete_powder_magenta",
+			"saw:dye_concrete_powder_pink"
+		]
+	}
+}
